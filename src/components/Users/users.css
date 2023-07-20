@@ -1,0 +1,22 @@
+.container {
+  margin: 32px 16px;
+}
+
+.total {
+  text-align: center;
+}
+
+.userBlock {
+  display: grid;
+  /* cas du flex  */ 
+  /* display: flex;
+  width: 100%;
+  flex-wrap: wrap; */
+  grid-template-columns: repeat(3, auto);
+  column-gap: 10px;
+  row-gap: 10px;
+
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(1, auto);
+  }
+}

@@ -34,3 +34,5 @@ We want to get for each user :
 - company name
 
 Display all users on the page by respecting this mock-up : 
+
+[mock-up](https://imgur.com/a/jUQ48Et "mock-up").
